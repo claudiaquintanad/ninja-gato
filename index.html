@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>De Ninja a Gato</title>
+    <style>
+        .row{
+            width: 600px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <h1 class="col-12 text-center">De Ninja a Gato</h1>
+        <div class="container row mx-auto">
+            <img id="0" class="col-12 mt-3" src="img/ninja0.png">
+            <img id="1" class="col-12 mt-3" src="img/ninja1.png">
+            <img id="2" class="col-12 mt-3" src="img/ninja2.png">
+            <img id="3" class="col-12 mt-3" src="img/ninja3.png">
+            <img id="4" class="col-12 mt-3" src="img/ninja4.png">
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+        $('#0').click(function(){
+            $('#0').attr('src', 'img/cat0.png');
+        });
+        $('#1').click(function(){
+            $('#1').attr('src', 'img/cat1.png');
+        });
+        $('#2').click(function(){
+            $('#2').attr('src', 'img/cat2.png');
+        });
+        $('#3').click(function(){
+            $('#3').attr('src', 'img/cat3.png');
+        });
+        $('#4').click(function(){
+            $('#4').attr('src', 'img/cat4.png');
+        });
+    </script>
+
+</body>
+</html>
